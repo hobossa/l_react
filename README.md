@@ -3,6 +3,7 @@
 - tutorial : https://reactjs.org/tutorial/tutorial.html
 - getting-started : https://reactjs.org/docs/getting-started.html
 - react-totorial : https://www.taniarascia.com/getting-started-with-react/
+- getting-started-rr : https://react-redux.js.org/introduction/getting-started
 
 - Read this section for a production-ready setup with JSX:
     - https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
