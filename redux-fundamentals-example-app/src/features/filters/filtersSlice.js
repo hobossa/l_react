@@ -9,7 +9,7 @@ export default function filtersReducer(state = initialState, action) {
         case 'filters/statusFilterChanged': {
             return {
                 // copy the other filter fields
-                ...state.filters,
+                ...state,
                 // And replace the status field with the new value
                 status: action.payload
             }
