@@ -1,4 +1,6 @@
-import { createStore, compose, applyMiddleware } from 'redux'
+import { createStore, applyMiddleware } from 'redux'
+// import { createStore, compose, applyMiddleware } from 'redux'
+import thunkMiddleware from 'redux-thunk'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import rootReducer from './reducer'
 
@@ -13,7 +15,7 @@ import rootReducer from './reducer'
 
 const composedEnhancer = composeWithDevTools(
     // EXAMPLE: Add whatever middleware you actually want to use here
-    applyMiddleware()
+    applyMiddleware(thunkMiddleware)
     // applyMiddleware(print1, print2, print3)
     // other store enhancers if any
 )
